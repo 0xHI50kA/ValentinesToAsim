@@ -100,7 +100,7 @@ h1 {
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     h1 {
         font-size: 1.8em;
     }
@@ -108,7 +108,7 @@ h1 {
     .yes-button, .no-button {
         font-size: 1em;
         padding: 10px 12px;
-        width: 90%; /* Adjust button width for smaller screens */
+        width: 90%;
         max-width: 200px;
     }
-}
+} */
