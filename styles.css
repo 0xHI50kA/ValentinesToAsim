@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Permanent+Marker&display=swap');
+
+.sad-text {
+    font-family: 'Raleway', sans-serif; /* Soft, sad font */
+    font-size: 50px;
+    font-weight: 400px;
+    color: #5a5a5a; /* Dull gray for a melancholic look */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), 
+                 0px -5px 10px rgba(173, 216, 230, 0.5); /* Faint blue tears effect */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: inline-block;
+    animation: shake 1.5s infinite ease-in-out;
+}
+
+/* Shaky animation (like trembling) */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-1px); }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
